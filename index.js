@@ -1,11 +1,8 @@
 import { League } from "./src/league.js";
+import { getNBAPlayer, getNBATeam } from "./nba/index.js";
 
-const nba = new League();
-
-nba.simulateRegularSeason();
-nba.simulatePlayoffs();
-
-console.log(nba.playOffs);
-console.log(nba.awards);
-
-while (true) {}
+export {
+    League,
+    getNBAPlayer,
+    getNBATeam
+}

@@ -3,7 +3,7 @@ import roster from "./roster.js";
 
 let __playerClass = Player;
 
-// via http://www.espn.com/nba/depth
+// via http://www.espn.com/nba/depth will automate soon
 const rotations = `Atlanta Hawks:T. Young	D. Murray	D. Hunter	J. Collins	C. Capela
 Boston Celtics:M. Smart	J. Brown	J. Brown	J. Tatum	R. Williams III
 Brooklyn Nets:S. Dinwiddie	M. Bridges	C. Johnson	D. Finney-Smith	N. Claxton
